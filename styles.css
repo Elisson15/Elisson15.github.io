@@ -1,6 +1,10 @@
 <style>
         body {
-            background-color: blue;
+            background-color: #000020;
+            background-image: url();
+            background-repeat: no-repeat;
+            background-size: auto;
+          background-position: center center;
         }
         header {
           color:white;
@@ -21,12 +25,12 @@
          h1:hover {
         text-shadow: red -2px 0, cyan 2px 0;
          }
-          color:gray;
+          color:white;
             font-size: 36px;
         }
         h2 {
-            color:blue;
-            Dancing Script', cursiva;
+          color:black;
+          Dancing Script', cursiva;
             font-size: 20px;
         }
         p {
