@@ -1,0 +1,76 @@
+<style>
+        body {
+          /* Eae Rapazeada, De Boa? */
+            background-color: #000020;
+            background-image: url();
+            background-repeat: no-repeat;
+            background-size: auto;
+          background-position: center center;
+            color: white;
+            font font-family: Sans-Serif;
+        }
+        header {
+          color:white;
+            background: linear-gradient(to right, #FF1744, #2962FF); /* Vermelho e Azul */
+            text-align: center;
+            padding: 20px;
+        }
+        h1 {
+          /* Portfólio Elisson */
+          color:white;
+         display: flex;
+         font-family: 'Playpen Sans', cursive;
+         align-items: center;
+         justify-content: center;
+         height: 1vh;
+         background: linear-gradient(to rigth, #FF1744, #2962FF);
+          }
+         h1:hover {
+        text-shadow: red -2px 0, cyan 2px 0;
+         }
+          color:white;
+            font-size: 36px;
+        }
+        p {
+          /* R$ */
+          color:white;
+          Dancing Script', cursiva;
+            font-size: 20px;
+        }
+        .container {
+            max-width: 800px;
+            margin: 0 auto;
+            padding: 20px;
+        }
+        img {
+            width: 160px;
+            height: auto;
+            margin-bottom: 20px;
+        }
+        #instagram-button {
+            background-color: #6A1B9A; /* Outro tom de Roxo */
+            color: white;
+            border: none;
+            padding: 10px 20px;
+            font-size: 18px;
+            text-decoration: none;
+            display: inline-block;
+            border-radius: 5px;
+        }
+        #threads-button {
+            background-color: #6A1B9A; /* Outro tom de Roxo */
+            color: white;
+            border: none;
+            padding: 10px 20px;
+            font-size: 18px;
+            text-decoration: none;
+            display: inline-block;
+            border-radius: 5px;
+        }
+        #instagram-button:hover {
+            background-color: #4A148C; /* Tom mais escuro de Roxo no hover */
+            
+          }  #threads-button:hover {
+            background-color: #4A148C; /* Tom mais escuro de Roxo no hover */
+        }
+    </style>
