@@ -1,6 +1,13 @@
 <style>
         body {
+          /* Eae Rapazeada, De Boa? */
             background-color: #000020;
+            background-image: url();
+            background-repeat: no-repeat;
+            background-size: auto;
+          background-position: center center;
+            color: white;
+            font font-family: Sans-Serif;
         }
         header {
           color:white;
@@ -24,10 +31,7 @@
           color:white;
             font-size: 36px;
         }
-        h2 {
-          color:black;
-          Dancing Script', cursiva;
-            font-size: 20px;
+
         }
         p {
           /* R$ */
