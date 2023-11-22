@@ -76,3 +76,9 @@
             background-color: #4A148C; /* Tom mais escuro de Roxo no hover */
         }
     </style>
+
+    <script>
+    window.alert("Início Portfólio")
+    window.confirm("@elisson_06_xiv")
+    window.prompt("Gostou?")
+    </script>
