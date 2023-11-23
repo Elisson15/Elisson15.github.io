@@ -1,7 +1,8 @@
 <style>
+
         body {
           /* Eae Rapazeada, De Boa? */
-            background-color: #000020;
+            background-color: black;
             background-image: url();
             background-repeat: no-repeat;
             background-size: auto;
@@ -39,40 +40,66 @@
           Dancing Script', cursiva;
             font-size: 20px;
         }
-        .container {
-            max-width: 800px;
-            margin: 0 auto;
-            padding: 20px;
-        }
+        
         img {
             width: 160px;
             height: auto;
             margin-bottom: 20px;
         }
-        #instagram-button {
-            background-color: #6A1B9A; /* Outro tom de Roxo */
-            color: white;
-            border: none;
-            padding: 10px 20px;
-            font-size: 18px;
-            text-decoration: none;
-            display: inline-block;
-            border-radius: 5px;
+
+        .neon {
+
+font-size: 18px;
+
+font-weight: 700;
+
+text-decoration: none;
+
+display: inline-block;
+
+color: #f1b;
+          
+padding: 10px 20px;
+
+border: #f1b 8px solid;
+
+border-radius: 16px;
+
+box-shadow: inset 0 0 32px 0 #f1b, 0 0 32px 0 #f1b;
+
+text-shadow: 0 0 8px hsl(0 0% 100% / 0.3), 32px
+        
+
+        position: relative;
+
         }
-        #threads-button {
-            background-color: #6A1B9A; /* Outro tom de Roxo */
-            color: white;
-            border: none;
-            padding: 10px 20px;
-            font-size: 18px;
-            text-decoration: none;
-            display: inline-block;
-            border-radius: 5px;
-        }
-        #instagram-button:hover {
-            background-color: #4A148C; /* Tom mais escuro de Roxo no hover */
-            
-          }  #threads-button:hover {
-            background-color: #4A148C; /* Tom mais escuro de Roxo no hover */
-        }
+
+
+
+        .neon2 {
+
+font-size: 18px;
+
+font-weight: 700;
+
+text-decoration: none;
+
+display: inline-block;
+
+color: #f1b;
+
+padding: 10px 20px;
+
+border: #f1b 8px solid;
+
+border-radius: 16px;
+
+box-shadow: inset 0 0 32px 0 #f1b, 0 0 32px 0 #f1b;
+
+text-shadow: 0 0 8px hsl(0 0% 100% / 0.3), 32px
+
+        position: relative;
+
+        }        
+
     </style>
