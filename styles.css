@@ -1,15 +1,7 @@
 <style>
 
-        body {
-          /* Eae Rapazeada, De Boa? */
-            background-color: #000020;
-            background-image: url();
-            background-repeat: no-repeat;
-            background-size: auto;
-            background-position: center center;
-            color: white;
-            font font-family: Sans-Serif;
-        }
+         background: red;
+
         header {
           color:white;
             background: linear-gradient(to right, #FF1744, #2962FF); /* Vermelho e Azul */
