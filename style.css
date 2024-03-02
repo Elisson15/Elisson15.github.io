@@ -1,0 +1,179 @@
+{ 
+  padding: 0;
+margin: 0;
+box-sizing: border-box;
+ }
+
+body{
+height: 100vh;
+background: url("../assents/back.avif");
+background-size: 100% 100%;
+}
+
+main{
+width: 100%;
+height: 100%;
+background: rgba(0, 0, 0, .7);
+display: flex;
+align-items: center;
+justify-content: center;
+}
+
+.post-card{
+width: 450px;
+display: flex;
+flex-direction: column;
+gap: 0.5rem;
+justify-content: center;
+background: rgba(0, 0, 0, 0.35);
+border-radius: 10px;
+box-shadow:0 4px 30px rgba(0, 0, 0, 0.1);
+backdrop-filter: blur(6.2px);
+-webkit-backdrop-filter: blur(6.2px);
+color: #fff
+padding: 1rem;
+}
+
+.post-card .profil-container{
+  width: 100%;
+  display: flex;
+  align-items: center;
+  justify-content: space-between;
+}
+
+.post-card .profil-container .profil{
+  display: flex;
+  align-items: center;
+  gap: 0.5rem;
+ font-weight: 600;
+ cursor: pointer;
+}
+
+.profil .profil-img{
+  width: 40px;
+  height: 40px;
+  border-radius: 50%;
+  overflow: hidden;
+}
+
+.profil-img img{
+  width: 100%;
+  height: 100%;
+  object-fit: cover;
+}
+
+.menu-icon{
+font-size: 18px;
+cursor: pointer;
+}
+
+/* Post Content */
+
+.post-content{
+  width: 100%;
+  display: flex;
+  align-items: center;
+  justify-content: center;
+}
+
+.post-content img{
+  width: 100%;
+  height: 100%;
+  object-fit: contain;
+}
+
+/* Interaction Section */
+
+.interact-section{
+  width: 100%;
+  display: flex;
+  align-items: center;
+  justify-content: space-between;
+  font-size: 22px;
+}
+
+.interact-section div{
+  display: flex;
+  align-items: center;
+  gap: 1rem;
+}
+
+.interact-section i{
+  cursor: pointer;
+}
+ 
+ .interact-section div .like-icon i:nth-child(2),
+ .interact-section  .save-icon i:nth-child(2){
+   display: none;
+ }
+
+ .interact-sectiosave-icon.active.active i:nth-child(2),
+ .interact-section  .save-icon.active i:nth-child(2){
+   display: flex;
+ }
+
+ .interact-sectiosave-icon.active.active i:nth-child(1),
+ .interact-section  .save-icon.active i:nth-child(1){
+   display: none;
+ }
+ 
+  .interact-section div .like-icon i:nth-child(2){
+    color: red;
+  }
+ 
+ /* Caption Section */
+ 
+ .caption-section{
+   width: 100%;
+ }
+
+ .caption-section div{
+   display: flex;
+   gap: 0.5rem;
+ }
+ 
+ .caption-section div a{
+   text-decoration: none;
+   color: #fff;
+ }
+ 
+ /* Comment Section */
+ 
+ .comment-section{
+   font-size: 14px;
+   color: gray;
+   cursor: pointer;
+ }
+ 
+ .add-comment-section{
+   display: flex;
+   align-items: center;
+   
+ }
+ 
+ .add-comment-section .profil{
+   width: 35px;
+   height: 35px;
+   border-radius: 50%;
+   overflow: hidden;
+   cursor: pointer;
+ }
+ 
+.add-comment-section .profil img{
+  width: 100%;
+  height: 100%;
+  object-fit: cover;
+}
+
+add.comment-section input{
+  outline: none;
+  padding: 0.5rem;
+  border: none;
+  font-size: 14px;
+  background: transparent;
+  color:#fff;
+}
+
+.time-diffusion-section{
+  font-size: 13px;
+}
