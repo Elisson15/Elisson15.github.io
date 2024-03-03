@@ -35,7 +35,7 @@ background-color: transparent;
 }
 
 .post-card{
-width: 450px;
+width: 350px;
 display: flex;
 flex-direction: column;
 gap: 0.5rem;
@@ -142,6 +142,7 @@ color: white;
  
  .caption-section{
    width: 100%;
+   color: white;
  }
 
  .caption-section div{
@@ -165,7 +166,6 @@ color: white;
  .add-comment-section{
    display: flex;
    align-items: center;
-   
  }
  
  .add-comment-section .profil{
@@ -193,4 +193,5 @@ color: white;
 
 .time-diffusion-section{
   font-size: 13px;
+  color: white;
 }
