@@ -148,6 +148,7 @@ color: white;
  .caption-section div{
    display: flex;
    gap: 0.5rem;
+   color: white;
  }
  
  .caption-section div a{
