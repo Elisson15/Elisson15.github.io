@@ -165,7 +165,7 @@ cursor: pointer;
   object-fit: cover;
 }
 
-add.comment-section input{
+.add-comment-section input{
   outline: none;
   padding: 0.5rem;
   border: none;
