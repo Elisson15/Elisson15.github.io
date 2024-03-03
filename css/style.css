@@ -19,11 +19,11 @@ align-items: center;
 justify-content: center;
 }
   #instagram-button {
-  background-color: #6A1B9A; /* Outro tom de Roxo */
+  background-color: #transparent;
   color: white;
   border: none;
-  padding: 10px 20px;
-  font-size: 18px;
+  padding: 5px 10px;
+  font-size: 9px;
   text-decoration: none;
   display: inline-block;
   border-radius: 5px;
