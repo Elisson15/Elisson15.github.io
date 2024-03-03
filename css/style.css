@@ -80,6 +80,7 @@ padding: 1rem;
 .menu-icon{
 font-size: 18px;
 cursor: pointer;
+color: white;
 }
 
 /* Post Content */
@@ -105,6 +106,7 @@ cursor: pointer;
   align-items: center;
   justify-content: space-between;
   font-size: 22px;
+  color: white;
 }
 
 .interact-section div{
@@ -186,7 +188,7 @@ cursor: pointer;
   border: none;
   font-size: 14px;
   background: transparent;
-  color:#fff;
+  color: white;
 }
 
 .time-diffusion-section{
