@@ -18,6 +18,16 @@ display: flex;
 align-items: center;
 justify-content: center;
 }
+  instagram-button {
+  background-color: #6A1B9A; /* Outro tom de Roxo */
+  color: white;
+  border: none;
+  padding: 10px 20px;
+  font-size: 18px;
+  text-decoration: none;
+  display: inline-block;
+  border-radius: 5px;
+        }
 
 .post-card{
 width: 450px;
