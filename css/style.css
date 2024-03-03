@@ -107,12 +107,12 @@ cursor: pointer;
    display: none;
  }
 
- .interact-sectiosave-icon.active i:nth-child(2),
+ .interact-sectiosave-icon.active.active i:nth-child(2),
  .interact-section  .save-icon.active i:nth-child(2){
    display: flex;
  }
 
- .interact-sectiosave-icon.active.active i:nth-child(1),
+ .interact-sectiosave-icon.active i:nth-child(1),
  .interact-section  .save-icon.active i:nth-child(1){
    display: none;
  }
