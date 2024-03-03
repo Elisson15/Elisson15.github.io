@@ -107,7 +107,7 @@ cursor: pointer;
    display: none;
  }
 
- .interact-sectiosave-icon.active.active i:nth-child(2),
+ .interact-sectiosave-icon.active i:nth-child(2),
  .interact-section  .save-icon.active i:nth-child(2){
    display: flex;
  }
