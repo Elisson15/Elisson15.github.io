@@ -18,16 +18,20 @@ display: flex;
 align-items: center;
 justify-content: center;
 }
-  #instagram-button {
-  background-color: #transparent;
-  color: white;
-  border: none;
-  padding: 5px 10px;
-  font-size: 9px;
-  text-decoration: none;
-  display: inline-block;
-  border-radius: 5px;
-        }
+#instagram-button {
+background-color: #transparent;
+color: white;
+border: none;
+padding: 5px 10px;
+font-size: 9px;
+text-decoration: none;
+display: inline-block;
+border-radius: 5px; 
+}
+
+#instagram-button:hover {
+background-color: #4A148C;
+}
 
 .post-card{
 width: 450px;
