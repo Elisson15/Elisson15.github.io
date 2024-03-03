@@ -107,14 +107,14 @@ cursor: pointer;
    display: none;
  }
 
- .interact-sectiosave-icon.active i:nth-child(2),
- .interact-section  .save-icon.active i:nth-child(2){
+ .interact-section div .like-icon.active i:nth-child(2),
+ .interact-section .save-icon.active i:nth-child(2){
    display: flex;
  }
 
- .interact-sectiosave-icon.active i:nth-child(1),
- .interact-section  .save-icon.active i:nth-child(1){
-   display: none;
+ .interact-section div .like-icon.active i:nth-child(1),
+ .interact-section .save-icon.active i:nth-child(1){
+    display: none;
  }
  
   .interact-section div .like-icon i:nth-child(2){
